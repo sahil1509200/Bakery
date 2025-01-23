@@ -42,7 +42,6 @@
                 <asp:Button ID="btnSubmit" runat="server" Text="Sign Up" CssClass="btn-submit" OnClick="btnSubmit_Click" />
             </div>
             <div class="error-message">
-                <asp:Label ID="lblErrorMessage" runat="server" Text="" ForeColor="Red" />
             </div>
         </form>
     </div>
