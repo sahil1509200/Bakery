@@ -102,6 +102,7 @@ namespace Bakery
             if (count > 0)
             {
                 Response.Write("Inserted succesfully");
+                Response.Redirect("LogIn.aspx");
             }
             else
             {
