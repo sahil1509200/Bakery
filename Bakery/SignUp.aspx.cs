@@ -27,7 +27,7 @@ namespace Bakery
             if(conn.State != ConnectionState.Open)
             {
                 conn.Open();
-                Response.Write("connected successfully");
+                Response.Write("connected \n");
                 conn.Close();
             }
             else
@@ -102,6 +102,7 @@ namespace Bakery
             if (count > 0)
             {
                 Response.Write("Inserted succesfully");
+                Response.Redirect("LogIn.aspx");
             }
             else
             {
