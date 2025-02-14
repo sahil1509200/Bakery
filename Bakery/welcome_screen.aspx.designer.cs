@@ -11,7 +11,7 @@ namespace Bakery
 {
 
 
-    public partial class HomePage
+    public partial class welcome_screen
     {
 
         /// <summary>
@@ -24,12 +24,21 @@ namespace Bakery
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// productReader control.
+        /// btnUserLogin control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater productReader;
+        protected global::System.Web.UI.WebControls.Button btnUserLogin;
+
+        /// <summary>
+        /// btnAdminLogin control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnAdminLogin;
     }
 }

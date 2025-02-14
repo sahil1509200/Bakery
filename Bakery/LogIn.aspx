@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Login Page</title>
+    <title>User Login</title>
     <style>
 
         body {
@@ -85,7 +85,7 @@
 </head>
 <body>
     <div class="container">
-        <h2>Login</h2>
+        <h2>User Login</h2>
         <form id="loginForm" runat="server">
             <div class="form-group">
                 <label for="username">Username:</label>
