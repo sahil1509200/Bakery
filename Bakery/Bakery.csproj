@@ -68,17 +68,53 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="admin_homeScreen.aspx" />
+    <Content Include="admin_login.aspx" />
     <Content Include="App_Data\Database1.mdf" />
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
     <Content Include="HomePage.aspx" />
     <Content Include="images\bg_1.jpg" />
+    <Content Include="images\Biscuit.png" />
+    <Content Include="images\Bread.png" />
+    <Content Include="images\Cake.png" />
+    <Content Include="images\Cookie.png" />
+    <Content Include="images\Donat.png" />
+    <Content Include="images\final-image.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\p1.png" />
+    <Content Include="images\p2.png" />
+    <Content Include="images\p3.png" />
+    <Content Include="images\p4.jpg" />
+    <Content Include="images\p4.png" />
+    <Content Include="images\tmp1.png" />
+    <Content Include="images\tmp2.png" />
+    <Content Include="images\tmp3.jpg" />
+    <Content Include="images\tmp4.jpg" />
+    <Content Include="images\tmp5.jpg" />
+    <Content Include="images\tmp6.jpg" />
+    <Content Include="images\tmp7.png" />
     <Content Include="LogIn.aspx" />
     <Content Include="SignUp.aspx" />
     <Content Include="Web.config" />
+    <Content Include="welcome_screen.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="admin_homeScreen.aspx.cs">
+      <DependentUpon>admin_homeScreen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin_homeScreen.aspx.designer.cs">
+      <DependentUpon>admin_homeScreen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin_login.aspx.cs">
+      <DependentUpon>admin_login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin_login.aspx.designer.cs">
+      <DependentUpon>admin_login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -100,6 +136,13 @@
     </Compile>
     <Compile Include="SignUp.aspx.designer.cs">
       <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="welcome_screen.aspx.cs">
+      <DependentUpon>welcome_screen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="welcome_screen.aspx.designer.cs">
+      <DependentUpon>welcome_screen.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
